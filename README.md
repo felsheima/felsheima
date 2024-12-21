@@ -5,9 +5,9 @@ This capstone project investigates the effectiveness of various malware analysis
 - [Objectives](#objectives)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Tools Used](#toolsused)
-- [Challenges and Lessons Learned](#challengesandlessonslearned)
-- [Repository Structure](#repositorystructure)
+- [Tools](#tools)
+- [Challenges](#challenges)
+
 
 # Introduction
 As technology dependence increases, so does the prevalence of malware. This project addresses the challenge of selecting appropriate malware analysis tools by comparing their performance in detecting file system changes, registry modifications, and import detections. The project employs a mixed-methods approach, combining literature review with practical experimentation in a controlled lab environment. This repository provides the project's methodology, results, and lessons learned.
@@ -48,13 +48,13 @@ The following table summarizes the effectiveness of the tools:
 
 Procmon proved to be the most versatile tool, performing well across all features. IDA Pro and Ghidra were effective for static analysis, but struggled with obfuscation. Regshot was highly effective for registry analysis but limited in scope. The results reinforce the need for a hybrid approach, combining multiple tools for comprehensive malware analysis.
 
-# Tools Used
+# Tools
 *   **Virtualization:** VirtualBox
 *   **Virtual Machines:** FlareVM, Remnux
 *   **Malware Analysis Tools:** IDA Pro, Ghidra, Procmon, Regshot, Hybrid Analysis (CrowdStrike Falcon Sandbox), Cuckoo Sandbox
 *   **Network Simulation:** InetSim
 
-# Challenges and Lessons Learned 
+# Challenges
 *   **Challenge:** Obfuscation techniques in malware samples made static analysis more difficult.
 *   **Lesson:** Dynamic and hybrid analysis are crucial for overcoming obfuscation.
 *   **Challenge:** Time constraints limited the number of malware samples and features analyzed.
