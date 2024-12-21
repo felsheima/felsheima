@@ -4,9 +4,6 @@ This project will explore common themes among malware analysis tools, examining 
 ## Table of Contents 
 
 
-## License
-This project is licensed under the [MIT License] (LICENSE)
-
 ## Disclaimers 
 I take no responsibility or accountabilty for infection of malicious software, programs, files onto any computer or workstation. This project is for educational purposes only. I do not condone the development, use of, or spreading of programs to intentionally harm assets, networks, or individuals.
 
